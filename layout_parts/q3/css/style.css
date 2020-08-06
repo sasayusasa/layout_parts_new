@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+table {
+  width: 100%;
+  table-layout: fixed;
+}
 
+table,th,td {
+  border: 1px solid #dedede;
+}
+
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #2244aa;
+  color: #ffffff;
+}
+
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) td:nth-child(n+2) {
+  background-color: #ecf1f2;
+}
+
+.dashed {
+  border-bottom: 2px dashed #000; 
+}
 /* 回答はここに書いてね */
