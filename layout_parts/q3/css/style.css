@@ -27,7 +27,7 @@ tbody tr:nth-child(even) td:nth-child(n+2) {
   background-color: #ecf1f2;
 }
 
-.dashed {
-  border-bottom: 2px dashed #000; 
+tbody tr:last-child {
+  border-top: 2px dashed #000; 
 }
 /* 回答はここに書いてね */
