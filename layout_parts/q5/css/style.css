@@ -89,18 +89,9 @@
 }
 
 .boxname9 {
-  width: 100px;
-  height: 100px;
-  text-align: center;
   background-color:#2b69a3;
   position: fixed;
   top: 10px;
   left: 10px;
-}
-
-.boxname9 p {
-  font-size: 25px;
-  font-weight: bold;
-  padding-top: 40px; 
 }
 /* 回答はここに書いてね */

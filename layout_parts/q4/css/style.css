@@ -3,6 +3,7 @@
 /* 回答はここに書いてね */
 .mainebox {
   background-color: #eff3f4;
+  padding: 20px;
 }
 
 .text {
@@ -16,7 +17,7 @@
   box-sizing: border-box;
   width: 100%;
   display: table;
-  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .bar_fix_left {
@@ -37,8 +38,6 @@
   box-sizing: border-box;
   width: 100%;
   display: table;
-  padding: 20px;
-  padding-top: 0;
 }
 
 .bar_vary_left {
