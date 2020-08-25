@@ -6,11 +6,11 @@
   table-layout: fixed;
 }
 
-.table,th,td {
+.table,.table th,.table td {
   border: 1px solid #dedede;
 }
 
-th {
+.table th {
   font-size: 18px;
   line-height: 26px;
   padding-top: 10px;
@@ -19,7 +19,7 @@ th {
   color: #ffffff;
 }
 
-td {
+.table td {
   font-size: 16px;
   line-height: 22px;
   padding-top: 10px;
@@ -27,11 +27,11 @@ td {
   text-align: center;
 }
 
-tbody tr:nth-child(even) td:nth-child(n+2) {
+.tbody tr:nth-child(even) td:nth-child(n+2) {
   background-color: #ecf1f2;
 }
 
-tbody tr:last-child {
+.tbody tr:last-child {
   border-top: 2px dashed #000; 
 }
 /* 回答はここに書いてね */

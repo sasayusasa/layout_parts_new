@@ -94,9 +94,8 @@
   text-align: center;
   background-color:#2b69a3;
   position: fixed;
-  top: 0;
-  left: 0;
-  margin: 10px;
+  top: 10px;
+  left: 10px;
 }
 
 .boxname9 p {
