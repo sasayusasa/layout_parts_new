@@ -38,6 +38,7 @@
   width: 100%;
   display: table;
   padding: 20px;
+  padding-top: 0;
 }
 
 .bar_vary_left {
