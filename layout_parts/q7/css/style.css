@@ -33,8 +33,7 @@
 }
 
 .inline-block {
-  letter-spacing: -1em;
-  white-space: nowrap;
+  font-size: 0;
 }
 
 .inline-blockinbox {
@@ -42,8 +41,7 @@
   width: 205px;
   margin-right: 50px;
   vertical-align: middle;
-  letter-spacing: normal;
-  white-space: normal;
+  font-size: 16px;
 }
 
 .inline-blockinbox:last-child {
@@ -63,13 +61,14 @@
 }
 
 .mainebox {
-  letter-spacing: -1em;
+  font-size: 0;
 }
 
 .inbox {
   display: inline-block;
   vertical-align: top;
   letter-spacing:0;
+  font-size: 16px;
 }
 
 .inbox:nth-child(1) {
