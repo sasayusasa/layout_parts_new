@@ -23,13 +23,13 @@
 
 .tableinbox {
   display: table-cell;
-  width: 205px;
-  padding-right: 50px;
+  width: 225px;
+  padding-left: 50px;
   vertical-align: middle;
 }
 
-.tableinbox:last-child {
-  padding-right: 0;
+.tableinbox:first-child {
+  padding-left: 0;
 }
 
 .inline-block {
@@ -53,15 +53,13 @@
 .flex {
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.flex::before {
-  content: "";
-}
-
-.flex::after {
-  content: "";
+.flexinbox {
+  width: 225px;
+  vertical-align: middle;
+  box-sizing: border-box;
 }
 
 .mainebox {
